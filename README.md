@@ -344,26 +344,3 @@ node populate.js
 
 Deletes existing products and seeds the database from `products.json`.
 
-## Roadmap
-
-These are the next improvements that would make this project stronger for backend job applications:
-
-- Add protected user profile/dashboard route
-- Add admin-only product management routes
-- Add request validation with Joi, Zod, or express-validator
-- Add full CRUD routes for products
-- Add cart and order models
-- Add inventory checks when creating orders
-- Add centralized custom error classes
-- Add API documentation with Swagger/OpenAPI
-- Add unit and integration tests with Jest and Supertest
-- Add Docker support
-- Deploy the API with MongoDB Atlas
-
-## Recruiter-Focused Goal
-
-The target version of this project is:
-
-> A production-style e-commerce REST API with authentication, role-based access control, product management, cart and order flows, validation, tests, documentation, and deployment.
-
-That version shows more than basic Express routing. It demonstrates API design, database modeling, security, error handling, and production readiness.
