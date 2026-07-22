@@ -10,8 +10,11 @@
     const notFoundMiddleware = require('./middleware/not-found');
     const errorMiddleware = require('./middleware/error-handler');
 
+    const authRouter = require('./routes/auth')
+
     // Middleware
     app.use(express.json());
+    app.use('/api/v1/auth',authRouter)
 
     // Routes
     app.get('/', (req, res) => {
